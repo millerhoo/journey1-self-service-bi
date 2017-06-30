@@ -3,7 +3,7 @@
 Oracle offers a set of Big Data Journeys to help users get started using Oracle Cloud services with a purpose. This particular journey is designed to show you techniques you can use to easily build your own Business Intelligence environment.
 
 
-![](images/snap0012063.jpg) 
+![](images/snap0012064.jpg) 
 
 
 
