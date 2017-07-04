@@ -13,15 +13,15 @@ create visualizations to explore and analyze the data.
 There are four sections in this tutorial:-
 
 1.  [Creating a Data Visualization with Sample
-    Data](#creating-a-data-visualization-with-sample-data)
+    Data](#section-1-creating-a-data-visualization-with-sample-data)
 
 2.  [Adding Data Sources from Comma Separated Value
-    Files](#adding-data-sources-from-comma-separated-value-files)
+    Files](#section-2-adding-data-sources-from-comma-separated-value-files)
 
-3.  [Creating a Data Flow](#creating-a-data-flow)
+3.  [Creating a Data Flow](#section-3-creating-a-data-flow)
 
 4.  [Adding a Data Source from Oracle
-    Database](#adding-a-data-source-from-oracle-database)
+    Database](#section-4-adding-a-data-source-from-oracle-database)
 
 Time to Complete
 ----------------
@@ -60,7 +60,7 @@ Before starting this tutorial, you should:
     and
     [Income.csv](https://oracle.github.io/learning-library/workshops/journey1-self-service-bi/DVData/Income.csv)
 
-Creating a Data Visualization with Sample Data
+Section 1: Creating a Data Visualization with Sample Data
 ==============================================
 
 1. Double click the Oracle Data Visualization Desktop 12c icon on your
@@ -253,7 +253,7 @@ customers by states US.
 
     ![](./images/400/Picture400-32.png)  
 
-Adding Data Sources from Comma Separated Value files
+Section 2: Adding Data Sources from Comma Separated Value files
 ====================================================
 
 In this section you add two data sources from Comma Separated Value
@@ -351,7 +351,7 @@ way as we create the People data source in the previous steps.
 
     ![](./images/400/Picture400-44.png)  
 
-Creating a Data Flow
+Section 3: Creating a Data Flow
 ====================
 
 In this section we create a data flow from the People and Income data
@@ -633,7 +633,7 @@ project as **People and Income Viz**.
 
     ![](./images/400/Picture400-83.png)  
 
-Adding a Data Source from Oracle Database 
+Section 4: Adding a Data Source from Oracle Database 
 ==========================================
 
 1. In the **Data Sources** page, go to the **Create pane**, and click
