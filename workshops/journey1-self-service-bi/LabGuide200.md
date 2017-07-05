@@ -204,7 +204,7 @@ endpoint of the Storage Cloud. Click **Configure Security** button in the page t
 dialog.
 
 All the information in this dialog can be known from the Oracle Storage Cloud configuration.
-Format of the **Username** filed is “ _Storage-<Identity Domain>:<login name>_ ”.
+Format of the **Username** filed is “Storage-\<Identity Domain\>:\<login name\>”.
 
 ![](images/200/Twitter21.png)
 
@@ -393,7 +393,7 @@ invocation node and click button in the pop up toolbox to launch the Mapper dial
 Click each HTTP header declared previously. In the demo, we will use static value for both
 headers. Values for both headers are from Oracle Storage Cloud configuration. Format for 
 
-X-Storage-User is  "_Storage-<identity domain>:<login name>_".
+X-Storage-User is  "Storage-\<identity domain\>:\<login name\>".
 
 
 ![](images/200/Twitter43.png)
@@ -414,7 +414,7 @@ REST invocation.
 
 
 The URI for the data object upload service in Oracle Storage Cloud is in the format:
-_/v1/Storage-<Identity Domain>/<Container>/<Object Name>_. The service leverages HTTP PUT
+/v1/Storage-\<Identity Domain\>/\<Container\>/\<Object Name\>. The service leverages HTTP PUT
 method to upload the data object. Content of the data object is sent as payload in a HTTP
 
 
@@ -422,7 +422,7 @@ request. **X-Auth-Token** header must be included in the HTTP request as the aut
 to the service.
 
 To enable the integration flow to control data object name at runtime, we use the template
-_/v1/Storage-<Identity Domain>/<Container>/{Object Name}_ for the service URL. The container
+/v1/Storage-\<Identity Domain\>/\<Container\>/{Object Name} for the service URL. The container
 must be created in advance before the demo.
 
 Select **PUT** as the request method, and check **Configure a request payload for this endpoint**
