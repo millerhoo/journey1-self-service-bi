@@ -309,7 +309,6 @@ transformation workflow, just click ![](images/300/image043.png)  button in the 
 
 ![](images/300/image044.png) 
 
-```
 Following dialog will appear to let you choose which target you want to publish the data.
 
 ![](images/300/image046.png) 
