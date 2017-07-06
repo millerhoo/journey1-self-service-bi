@@ -8,7 +8,7 @@ Oracle Integration Cloud Service, Oracle Storage Cloud Service
 
 ## Goal of Demo:
 
-To demonstrate how easily to leverage Oracle Integration Cloud Service to build integration to pull Twitter feeds which the user cares about and store the data into Data Lake in Oracle Storage Cloud.
+To demonstrate how easily it is to leverage Oracle Integration Cloud Service and build integrations to pull Twitter feeds which the user cares about and store the data into Data Lake in Oracle Storage Cloud.
 
 ## Pre-requisites: 
 
@@ -135,13 +135,13 @@ Next, we need to input the connection parameters to REST API endpoint of the Ora
 
 ![](images/200/picture200-2.2-3.png) 
 
-Set **Connection Type** to â€œREST API Base URLâ€, set **TLS Version** to â€œTLS V1.1â€ and copy the base url (without URI part) of the REST API endpoint of the Storage Cloud to the **Connection URL** field. Click **OK** to close the dialog.
+Set **Connection Type** to "REST API Base URL", set **TLS Version** to "TLS V1.1" and copy the base URL (without URI part) of the REST API endpoint of the Storage Cloud to the **Connection URL** field. Click **OK** to close the dialog.
 
 The last parameters that need to be configured are the security information to login to REST API endpoint of the Storage Cloud. Click **Configure Security** button in the page to launch following dialog.
 
 ![](images/200/picture200-2.2-4.png) 
 
-All the information in this dialog can be known from the Oracle Storage Cloud configuration.  Format of the **Username** filed is â€œStorage-\<Identity Domain>:\<login name>â€.
+All the information in this dialog can be known from the Oracle Storage Cloud configuration.  Format of the **Username** field is "Storage-\<Identity Domain>:\<login name>".
 
 After specifying all required information, click **OK** to close the dialog.  Now all the required parameters have been configured for the Oracle Storage Cloud connection.  A test is also required to ensure the configuration is correct. After the test is done, click **Save** action to save the connection, and then click **Exit Connection** action to return to Connection Design page.
 
@@ -217,13 +217,13 @@ Click the **Save** button on the top to apply the change, then click the **Close
 
 ![](images/200/picture200-3-14.png) 
 
-Another parameter that needs to be customized is **result_type**. Use a fixed value â€œrecentâ€ for this parameter to only retrieve new tweets from the userâ€™s Twitter account.
+Another parameter that needs to be customized is **result_type**. Use a fixed value of "recent" for this parameter to only retrieve new tweets from the user's Twitter account.
 
 After both parameters are customized, the user can view the configuration in the dialog. If properly configured, click **Exit Mapper** button to save the change.
 
 ![](images/200/picture200-3-15.png) 
 
-Now the integration can invoke Twitter to retrieve interested tweets from userâ€™s account.  The next step is to enable writing those tweets to Data Lake in Oracle Storage Cloud. Services from the Oracle Storage Cloud can be leveraged to implement the function.
+Now the integration can invoke Twitter to retrieve interested tweets from user's account.  The next step is to enable writing those tweets to Data Lake in Oracle Storage Cloud. Services from the Oracle Storage Cloud can be leveraged to implement the function.
 
 The integration will first authenticate to the Oracle Storage Cloud to retrieve a security token for following requests. Select pre-defined Oracle Storage Cloud connection from the **INVOKES** pop up toolbox on the left. Then drag the connection to the position between the Twitter node and the end node in the flow.
 
@@ -332,7 +332,7 @@ To make the demo simpler, we use same schema for the payload as that for the ret
 
 ![](images/200/Twitter57.png)
 
-The Mapper Designer supports creating a XSL template interactively. In the schema tree, an element that can repeat more than once is decorated with an icon ahead. Those elements are always starting point of the template design. In the demo, we will start from the “**statuses**” element. Clicking the element in the target schema tree will launch the following dialog.
+The Mapper Designer supports creating a XSL template interactively. In the schema tree, an element that can repeat more than once is decorated with an icon ahead. Those elements are always starting point of the template design. In the demo, we will start from the **statuses** element. Clicking the element in the target schema tree will launch the following dialog.
 
 ![](images/200/Twitter58.png)
 
@@ -445,3 +445,4 @@ Selecting **Tracking** from the left panel will show following Integration Track
 Click an integration execution in the list will jump to the following page. The user can view the progress and state of the integration flow.
 
 ![](images/200/Twitter80.png)
+
