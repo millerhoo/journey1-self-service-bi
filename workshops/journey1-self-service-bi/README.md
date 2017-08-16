@@ -48,7 +48,23 @@ You will learn how to use Oracle Integration Cloud Service (a lightweight integr
 
 
 
-## Lab 200: Provisioning Integration Cloud Service and Connecting to Twitter
+
+## Lab 100:  Visualize Data with Oracle Data Visualization Desktop
+
+**Documenation**: [LabGuide100StartHere.md](LabGuide100StartHere.md)
+
+**Objectives**:
+
+- Download and Install Oracle Data Visualization Desktop (DVD)
+- Connect DVD to Oracle Database as a Service
+- Visualize Citibike data
+
+
+
+
+# Other labs (under construction)
+
+## Lab 200: (DRAFT) Provisioning Integration Cloud Service and Connecting to Twitter
 
 **Documenation**: [LabGuide200.md](LabGuide200.md)
 
@@ -59,7 +75,7 @@ You will learn how to use Oracle Integration Cloud Service (a lightweight integr
 - Configure ICS to connect to Twitter.com
 - Use ICS to deliver Twitter.com data to Oracle Storage Cloud Object Store
 
-## Lab 300: Massaging data with Oracle Big Data Preparation Cloud Service
+## Lab 300: (DRAFT) Massaging data with Oracle Big Data Preparation Cloud Service
 
 **Documenation**: [LabGuide300.md](LabGuide300.md)
 
@@ -68,14 +84,3 @@ You will learn how to use Oracle Integration Cloud Service (a lightweight integr
 - Provision Oracle Big Data Preparation Cloud Service
 - Prepare a dataset containing Twitter data
 - Store revised data in Oracle Database as a Service
-
-## Lab 400:  Visualize Data with Oracle Data Visualization Desktop
-
-**Documenation**: [LabGuide400.md](LabGuide400.md)
-
-**Objectives**:
-
-- Download and Install Oracle Data Visualization Desktop (DVD)
-- Connect DVD to Oracle Database as a Service
-- Visualize your Twitter.com data
-
