@@ -12,11 +12,10 @@ In this workshop, you will learn how to use **Oracle Data Visualization Desktop*
 
 This journey workshop builds upon the New Data Lake journey.
 
-As such, this workshop will re-use parts of the New Data Lake journey.  Specifically, it will re-use Lab100, Lab200 and Lab300 from the New Data Lake journey. You will also need to review the setup in the xtra Connecting DV Desktop and Hive lab.
+As such, this workshop will re-use parts of the New Data Lake journey.  Specifically, it will re-use Lab100, Lab200 and Lab300 from the New Data Lake journey. You will also need to review the setup in the xtra Connecting DV Desktop and Hive/Spark notebooks.
 
-Please 
 
-**Mandatory Steps**
+## Mandatory Steps
 
 + Navigate to the New Data Lake Journey at [https://oracle.github.io/learning-library/workshops/journey2-new-data-lake/](https://oracle.github.io/learning-library/workshops/journey2-new-data-lake/) 
 + Complete New Data Lake Lab 100 "Start Here - Provisioning"
@@ -25,7 +24,7 @@ Please
 Once you have completed Lab 100 and LAB 200 from the New Data Lake Journey, you can proceed to the **SelfServeBI Exploring CitiBike data with DVD** notebook (should be pre-loaded) in your BDCS-CE environment. In the notebook, do the "Working with CitiBike Data Off Line" exercises.
 
 
-**Optional Steps** - If you want to connect live from DVD to BDCS-CE
+## Optional Steps - If you want to connect live from DVD to BDCS-CE
 + Complete New Data Lake Lab xtra: Connecting with DV Desktop and Hive
 + Complete New Data Lake Lab xtra: Connecting with DV Desktop and Spark
 
